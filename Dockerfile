@@ -7,4 +7,4 @@ copy requirements.txt ./requirements.txt
 run pip3 install -r requirements.txt
 copy . .
 ENTRYPOINT ["streamlit","run"]
-CMD ["app.py"] 
+CMD ["app.py"]
